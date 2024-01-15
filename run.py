@@ -84,6 +84,6 @@ async def id_error(interaction: discord.Interaction, error):
         await interaction.followup.send(embed=em)
 
 
-token = os.environ.get("TOKEN")
+token = os.environ.get("TOKEN", "")
 keep_alive()
 bot.run(token)
