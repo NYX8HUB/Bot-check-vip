@@ -1,0 +1,6 @@
+discord
+os
+requests
+datetime
+re
+flask
