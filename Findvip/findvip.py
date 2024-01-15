@@ -4,6 +4,7 @@ import os
 import requests
 import datetime
 import re
+from keep_alive import keep_alive
 
 # functions
 intents = discord.Intents.all()
@@ -84,4 +85,5 @@ async def id_error(interaction: discord.Interaction, error):
 
 
 token = os.environ.get("TOKEN")
+keep_alive()
 bot.run(token)
