@@ -1,5 +1,5 @@
---upgrade os
---upgrade re
+upgrade os
+upgrade re
 discord
 requests
 datetime
