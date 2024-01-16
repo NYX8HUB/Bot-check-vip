@@ -1,5 +1,5 @@
-os==23.2.1
-re
+--upgrade os
+--upgrade re
 discord
 requests
 datetime
