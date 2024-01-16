@@ -1,4 +1,4 @@
-os
+os==23.2.1
 re
 discord
 requests
