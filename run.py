@@ -4,7 +4,7 @@ import os
 import requests
 import datetime
 import re
-from keepalive import keep_alvie
+from keepalive import keep_alive
 keep_alive()
 
 # functions
