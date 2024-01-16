@@ -5,6 +5,7 @@ import requests
 import datetime
 import re
 from keep_alive import keep_alvie
+keep_alive()
 
 # functions
 intents = discord.Intents.all()
@@ -84,6 +85,5 @@ async def id_error(interaction: discord.Interaction, error):
         await interaction.followup.send(embed=em)
 
 
-token = os.environ.get("TOKEN", "")
-keep_alive()
+token = os.environ.get('TOKEN')
 bot.run(token)
