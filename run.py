@@ -84,5 +84,5 @@ async def id_error(interaction: discord.Interaction, error):
         await interaction.followup.send(embed=em)
 
 keep_alive()
-token = os.environ['TOKEN']
+token = "MTExNTE2MzY5NzM3NjE1MzY2MQ.GcLmGR.Vdc_Im3hX-2hqVsImxsPpBTIitl33x4-Q40OYI"
 bot.run(token)
