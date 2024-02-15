@@ -1,10 +1,12 @@
 import discord
 from discord.ext import commands
-import os
 import requests
 import datetime
+import os
 import re
 from keepalive import keep_alive
+
+keep_alive()
 
 # functions
 intents = discord.Intents.all()
@@ -83,6 +85,5 @@ async def id_error(interaction: discord.Interaction, error):
         em.set_footer(text='Robo is in love with Single',icon_url="https://imgur.com/EpLwRun")
         await interaction.followup.send(embed=em)
 
-keep_alive()
-token = os.environ['TOKEN']
+token = os.environ['tokenkey']
 bot.run(token)
