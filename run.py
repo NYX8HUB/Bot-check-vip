@@ -85,5 +85,5 @@ async def id_error(interaction: discord.Interaction, error):
         em.set_footer(text='Robo is in love with Single',icon_url="https://imgur.com/EpLwRun")
         await interaction.followup.send(embed=em)
 
-token = os.environ['tokenkey']
+token = "MTI5NTE1NDAxMDU4MzQ3MDExMQ.Gv563k.oJ-0A7mijPeR815YK-ZYBO-dWli4rki7SE5hKk"
 bot.run(token)
